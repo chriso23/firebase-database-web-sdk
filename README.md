@@ -2,7 +2,7 @@ Firebase Realtime Database Web Quickstart
 ------------------------------------------------
 
 The Firebase Database quickstart demonstrates how to connect to the Firebase Realtime Database and
-to send and retrieve data through a simple social blogging app.
+to send and retrieve data through a web-based social blogging app.
 
 Get Started
 -----------
