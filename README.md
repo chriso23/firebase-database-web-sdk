@@ -1,4 +1,4 @@
-Firebase Realtime Database JavaScript Quickstart
+Firebase Realtime Database Web Quickstart
 ------------------------------------------------
 
 The Firebase Database quickstart demonstrates how to connect to the Firebase Realtime Database and
