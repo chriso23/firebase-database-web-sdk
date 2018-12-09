@@ -1,8 +1,6 @@
-Firebase Realtime Database Quickstart
--------------------------------------
+## Firebase Realtime Database Quickstart
 
-Introduction
-------------
+## Introduction
 
 The Firebase Database quickstart demonstrates how to connect to the Firebase Realtime Database and
 to send and retrieve data through a simple social blogging app. 
@@ -26,4 +24,4 @@ Support
 License
 -------
 
-Â© Chris Oung, 2018 Licensed under an [Apache-2](../LICENSE) license.
+© Chris Oung, 2018 Licensed under an [Apache-2](../LICENSE) license.

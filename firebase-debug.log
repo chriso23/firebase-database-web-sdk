@@ -1,0 +1,50 @@
+[debug] [2018-12-09T22:59:33.516Z] ----------------------------------------------------------------------
+[debug] [2018-12-09T22:59:33.517Z] Command:       /usr/local/bin/node /Users/chrisoung/.npm-global/bin/firebase serve
+[debug] [2018-12-09T22:59:33.517Z] CLI Version:   6.1.1
+[debug] [2018-12-09T22:59:33.517Z] Platform:      darwin
+[debug] [2018-12-09T22:59:33.517Z] Node Version:  v8.12.0
+[debug] [2018-12-09T22:59:33.518Z] Time:          Sun Dec 09 2018 14:59:33 GMT-0800 (PST)
+[debug] [2018-12-09T22:59:33.518Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-09T22:59:33.524Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-09T22:59:33.525Z] > authorizing via signed-in user
+[debug] [2018-12-09T22:59:33.525Z] [iam] checking project database-0023 for permissions ["firebase.projects.get"]
+[debug] [2018-12-09T22:59:33.526Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/database-0023:testIamPermissions  
+
+[debug] [2018-12-09T22:59:33.902Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-09T22:59:33.904Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/database-0023  
+ 
+[debug] [2018-12-09T22:59:34.200Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/chrisoung/GitHub/database'...
+[info] 
+[debug] [2018-12-09T22:59:34.203Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/515238353465/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-09T22:59:34.972Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2018-12-09T23:01:40.727Z] ----------------------------------------------------------------------
+[debug] [2018-12-09T23:01:40.729Z] Command:       /usr/local/bin/node /Users/chrisoung/.npm-global/bin/firebase serve
+[debug] [2018-12-09T23:01:40.729Z] CLI Version:   6.1.1
+[debug] [2018-12-09T23:01:40.729Z] Platform:      darwin
+[debug] [2018-12-09T23:01:40.729Z] Node Version:  v8.12.0
+[debug] [2018-12-09T23:01:40.730Z] Time:          Sun Dec 09 2018 15:01:40 GMT-0800 (PST)
+[debug] [2018-12-09T23:01:40.730Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-09T23:01:40.737Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-09T23:01:40.737Z] > authorizing via signed-in user
+[debug] [2018-12-09T23:01:40.737Z] [iam] checking project database-0023 for permissions ["firebase.projects.get"]
+[debug] [2018-12-09T23:01:40.738Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/database-0023:testIamPermissions  
+
+[debug] [2018-12-09T23:01:41.288Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-09T23:01:41.289Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/database-0023  
+ 
+[debug] [2018-12-09T23:01:41.602Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/chrisoung/GitHub/database'...
+[info] 
+[debug] [2018-12-09T23:01:41.603Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/515238353465/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-09T23:01:41.998Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
