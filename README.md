@@ -1,4 +1,4 @@
-Firebase Realtime Database JavaScript Quickstart
+Firebase Realtime Database Web Quickstart
 ------------------------------------------------
 
 Introduction
