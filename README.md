@@ -7,7 +7,7 @@ Introduction
 The Firebase Database quickstart document demonstrates how to connect to the Firebase Realtime Database and
 to send and retrieve data through a simple social blogging app. 
 
-[Read more about Firebase Database](https://firebase.google.com/docs/database/)
+[Read more about the Firebase Realtime Database](https://firebase.google.com/docs/database/)
 
 Getting Started
 ---------------
