@@ -1,5 +1,5 @@
-Firebase Realtime Database Web Quick Start Guide
-------------------------------------------------
+Firebase Realtime Database Web Quickstart
+-----------------------------------------
 
 Introduction
 ------------
