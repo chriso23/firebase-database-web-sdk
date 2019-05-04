@@ -1,11 +1,10 @@
 Firebase Realtime Database Web Quickstart
 -----------------------------------------
+The Firebase Realtime Database lets you store and sync data between users and devices in real-time using a cloud-hosted, NoSQL database. All updated data syncs across connected client devices in milliseconds, and data remains available if your app goes offline, which provides a great user experience regardless of network connectivity.
 
 Introduction
 ------------
-
-The Firebase Database quickstart document demonstrates how to connect to the Firebase Realtime Database and
-to send and retrieve data through a simple social blogging app. 
+This quickstart sample app contains a step-by-step guide that will help you connect your web app to Firebase, set up the Firebase Realtime Database JavaScript SDK, and configure the database rules to build a simple blogging application that allows authorized users to send and retrieve data in real-time.
 
 [Read more about the Firebase Realtime Database](https://firebase.google.com/docs/database/)
 
