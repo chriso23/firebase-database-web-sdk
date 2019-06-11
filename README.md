@@ -4,7 +4,7 @@ The Firebase Realtime Database lets you store and sync data between users and de
 
 Introduction
 ------------
-This quickstart sample app contains a step-by-step guide that demonstrates how to connect your web application to Firebase, set up the Firebase Realtime Database JavaScript SDK, and configure the database rules to build a simple blogging application that allows authorized users to post and retrieve data in real-time.
+This quickstart sample app contains a step-by-step guide that demonstrates how to connect your web application to Firebase, set up the Firebase Realtime Database Web SDK, and configure the database rules to build a simple blogging application that allows authorized users to post and retrieve data in real-time.
 
 [Read more about the Firebase Realtime Database](https://firebase.google.com/docs/database/)
 
@@ -21,4 +21,4 @@ Getting Started
 License
 -------
 
-© Chris Oung, 2018 Licensed under an [Apache-2](https://github.com/chrisoung/firebase-realtime-database/blob/master/LICENSE) license.
+© Chris Oung, 2018. [Apache 2.0 License.](https://github.com/chrisoung/firebase-realtime-database/blob/master/LICENSE)
