@@ -34,11 +34,11 @@ Setup
     $ git clone https://github.com/chrisoung/web-database-quickstart
     ```
     
-2. Create a [Firebase Project](https://console.firebase.google.com)
-3. [Add the Firebase SDKs and initialize Firebase](https://firebase.google.com/docs/web/setup)
-      - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0)
-      - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0)
-4. [Connect and configure Firebase to your web app](https://firebase.google.com/docs/web/setup?authuser=0#register-app)
+2. [Create a Firebase Project](https://console.firebase.google.com) in the Firebase console.
+3. Add the Firebase SDKs and initialize Firebase.
+      - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0).
+      - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0).
+4. Connect and configure Firebase to your web app.
 
 
 Run the sample app
