@@ -25,22 +25,6 @@ The Firebase CLI requires [Node.js](http://nodejs.org/) and [npm](https://npmjs.
 
       This command installs the globally available `firebase` command. To update to the latest version of the Firebase CLI, re-run the same `npm install` command.
 
-  3. Sign in to Firebase using your Google Account by running the following command:
-  
-      ```bash
-      $ firebase login
-      ```
-      
-      This command connects your local machine to Firebase and grants you access to your Firebase projects.
-
-  4. To test that authentication worked (and to list all of your Firebase projects), run the following command:
-
-      ```bash
-      $ firebase list
-     ```
-
-The displayed list should be the same as the Firebase projects listed in the Firebase console.
-
 Setup
 -----
 #### Get the sample code of the web app
@@ -50,8 +34,8 @@ Setup
     ```
 2. [Create a Firebase Project](https://console.firebase.google.com)
 3. [Add the Firebase SDKs and initialize Firebase](https://firebase.google.com/docs/web/setup)
-      - [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0)
-      - [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0)
+      - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0)
+      - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0)
 4. [Connect and configure Firebase to your web app](https://firebase.google.com/docs/web/setup?authuser=0#register-app)
 
 
