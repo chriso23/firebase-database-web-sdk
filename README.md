@@ -1,17 +1,33 @@
 Firebase Realtime Database Web Quickstart
 -----------------------------------------
 
-Introduction
+Table of Contents
+-----------------
+- [Introduction](#intro)
+- [Installation](#installation)
+    1. [Firebase CLI Prerequisite Requirements](#cli)
+- [Setup](#setup)
+    - [Get the sample code from GitHub](#get-sample)
+    - [Create a Firebase project](#create-fire)
+    - [Connect and configure Firebase to your web app](#connect-app)
+    - [Add Firebase SDKs and initialize Firebase](#add-sdk)
+- [Usage](#usage)
+- [Run the sample app](#run)
+
+
+Introduction <a name="intro"></a>
 ------------
+
 This quickstart sample application demonstrates how to use the Firebase JavaScript SDK and the Firebase Realtime Database to build and deploy a simple social blogging app for the web.
 
-Installation
+Installation <a name="installation"></a>
 ------------
-#### Install the Firebase CLI
+
+#### Firebase CLI Prerequisite Requirements <a name="cli"></a>
 
 The Firebase CLI requires [Node.js](http://nodejs.org/) and [npm](https://npmjs.org/) (the Node Package Manager).
 
-  1. Install Node.js for your computer's operating system. Installing Node.js automatically installs npm.
+  1. Install Node.js <a name="nodejs"></a> for your computer's operating system. Installing Node.js automatically installs npm.
         - For macOS/Linux, use [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md) (the Node Version Manager)
         - For Windows, use [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
@@ -22,29 +38,31 @@ The Firebase CLI requires [Node.js](http://nodejs.org/) and [npm](https://npmjs.
       ```bash
       $ npm install -g firebase-tools
       ```
-
       This command installs the globally available `firebase` command. To update to the latest version of the Firebase CLI, re-run the same `npm install` command.
 
-Setup
+Setup <a name="setup"></a>
 -----
-#### Get the sample code from GitHub
-1. To get the sample code from GitHub, use the `git clone` command to get a local copy of the remote repository. To clone the sample code, run the following command:
 
+#### Get the sample code from GitHub <a name ="get-sample"></a>
+
+1. To get the sample code from GitHub, use the `git clone` command to get a local copy of the remote repository. To clone the sample code, run the following command:
+    
     ```bash
     $ git clone https://github.com/chrisoung/web-database-quickstart
     ```
     
-2. [Create a Firebase Project](https://console.firebase.google.com) in the Firebase console.
-3. Connect and configure Firebase to your web app.
-4. Add the Firebase SDKs and initialize Firebase.
-      - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0).
-      - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0).
+2. [Create a Firebase Project](https://console.firebase.google.com) in the Firebase console. <a name="create-fire"></a>
+3. Connect and configure Firebase to your web app. <a name="connect-app"></a>
+4. Add the Firebase SDKs and initialize Firebase.  <a name="add-sdk"></a>
 
-Usage
+    - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0).
+    - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0).
+
+Usage <a name="#usage"></a>
 -----
 
-1. To add Firebase SDKs (Firebase Realtime Database and Authentication) to your web app, select the SDKs as scripts to the bottom of your `<body>` tag. For more information about the supported Firebase SDKs, see [Additional Firebase JS SDKs](https://firebase.google.com/docs/web/setup?authuser=0#available-libraries).
-  
+1. To add Firebase SDKs (Firebase Realtime Database and Authentication) to your web app, select the SDKs as scripts to the bottom of your `<body>` tag. For more information about the supported Firebase SDKs, see [Additional Firebase JS SDKs](https://firebase.google.com/docs/web/setup?authuser=0#available-libraries). <a name="add-firebase-sdk"></a>
+
     ```javascript
         <!-- The core Firebase JS SDK is always required and must be listed first -->
         <script src="/__/firebase/5.5.7/firebase-app.js"></script>
@@ -58,7 +76,7 @@ Usage
         <script src="/__/firebase/init.js"></script>
     ```
 
-2. Initialize Firebase in your web app
+2. Initialize Firebase in your web app <a name="init"></a>
 
     ```html
     <body>
@@ -76,8 +94,9 @@ Usage
     </body>
     ```
 
-Run the sample app
+Run the sample app <a name ="run"></a>
 ---------------
+
 #### To run the sample app locally, use the Firebase CLI and deploy to Firebase Hosting
 
 1. On the command line, navigate to your project's root directory; then, run the following command to login to Firebase:
@@ -88,6 +107,7 @@ Run the sample app
    This command connects your local machine to Firebase and grants you access to your Firebase projects.
 
 2. [Initialize your Firebase project](https://firebase.google.com/docs/hosting/quickstart?authuser=0#initialize). Run the following command from the root of your local app directory:
+
     ```bash
     $ firebase init
     ```
@@ -110,6 +130,7 @@ Run the sample app
     ```bash
     $ firebase serve --only hosting
     ```
+
 
 Support
 -------
