@@ -27,12 +27,14 @@ The Firebase CLI requires [Node.js](http://nodejs.org/) and [npm](https://npmjs.
 
 Setup
 -----
-#### Get the sample code of the web app
-1. Get a local copy of the project's repository by opening terminal and running the following command:
+#### Get the sample code from GitHub
+1. To get the sample code from GitHub, use the `git clone` command to get a local copy of the remote repository. To clone the sample code, run the following command:
+
     ```bash
     $ git clone https://github.com/chrisoung/web-database-quickstart
     ```
-2. [Create a Firebase Project](https://console.firebase.google.com)
+    
+2. Create a [Firebase Project](https://console.firebase.google.com)
 3. [Add the Firebase SDKs and initialize Firebase](https://firebase.google.com/docs/web/setup)
       - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0)
       - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0)
