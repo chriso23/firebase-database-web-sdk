@@ -35,28 +35,77 @@ Setup
     ```
     
 2. [Create a Firebase Project](https://console.firebase.google.com) in the Firebase console.
-3. Add the Firebase SDKs and initialize Firebase.
+3. Connect and configure Firebase to your web app.
+4. Add the Firebase SDKs and initialize Firebase.
       - Enable [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0).
       - Enable [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0).
-4. Connect and configure Firebase to your web app.
 
+Usage
+-----
+
+1. To add Firebase SDKs (Firebase Realtime Database and Authentication) to your web app, select the SDKs as scripts to the bottom of your `<body>` tag. For more information about the supported Firebase SDKs, see [Additional Firebase JS SDKs](https://firebase.google.com/docs/web/setup?authuser=0#available-libraries).
+  
+    ```javascript
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="/__/firebase/5.5.7/firebase-app.js"></script>
+        <script src="/__/firebase/5.5.7/firebase-auth.js"></script>
+        <script src="/__/firebase/5.5.7/firebase-database.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#reserved-urls -->
+
+        <!-- Initialize Firebase -->
+        <script src="/__/firebase/init.js"></script>
+    ```
+
+2. Initialize Firebase in your web app
+
+    ```html
+    <body>
+        <!-- Previously loaded Firebase SDKs -->
+
+        <script>
+        // TODO: Replace the following with your app's Firebase project configuration
+        var firebaseConfig = {
+        // ...
+        };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+        </script>
+    </body>
+    ```
 
 Run the sample app
 ---------------
-#### To run the sample app locally, use the Firebase CLI. 
+#### To run the sample app locally, use the Firebase CLI and deploy to Firebase Hosting
 
 1. On the command line, navigate to your project's root directory; then, run the following command to login to Firebase:
 
     ```bash
     $ firebase login
    ```
- 2. Next, run the `use --add` command to select a Firebase project: 
+   This command connects your local machine to Firebase and grants you access to your Firebase projects.
+
+2. [Initialize your Firebase project](https://firebase.google.com/docs/hosting/quickstart?authuser=0#initialize). Run the following command from the root of your local app directory:
+    ```bash
+    $ firebase init
+    ```
+    This initialization command does all of the following:
+    - Links your local app directory with Firebase.
+    - Generates a firebase.json file (a required file for Firebase Hosting).
+    - Prompts you to specify a public root directory which contains your public static files (HTML, CSS, JS, etc.).
+
+    The default name for the directory that Firebase looks for is "public". You can also set the public directory later by directly modifying your firebase.json file. 
+
+
+3. Next, run the `use --add` command to select a Firebase project: 
  
     ```bash
     $ firebase use --add
     ``` 
  
-3. To run a sample app locally, use the following command to serve over a local port number: 
+4. To run a sample app locally, use the following command to serve over a local port number: 
 
     ```bash
     $ firebase serve --only hosting
