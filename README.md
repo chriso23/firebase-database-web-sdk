@@ -17,8 +17,7 @@ The Firebase CLI requires [Node.js](http://nodejs.org/) and [npm](https://npmjs.
         - For Mac/Linux, use [nvm](https://github.com/nvm-sh/nvm/blob/master/README.md) (the Node Version Manager)
         - For Windows, use [nvm-windows](https://github.com/coreybutler/nvm-windows).
 
-        **Note**: The Firebase CLI requires Node.js v6.0.0 or later.
-  Some Firebase services might require specific versions of Node.js, so check each Firebase service's getting started page for any specific Node.js requirements.
+> **Note**: The Firebase CLI requires Node.js v6.0.0 or later. Some Firebase services might require specific versions of Node.js, so check each Firebase service's getting started page for any specific Node.js requirements.
 
   2. Install the Firebase CLI using npm by running the following command:
 
@@ -55,7 +54,7 @@ Setup
 3. [Add the Firebase SDKs and initialize Firebase](https://firebase.google.com/docs/web/setup)
       - [Firebase Realtime Database](https://firebase.google.com/products/realtime-database/?authuser=0)
       - [Firebase Authentication](https://firebase.google.com/docs/auth?authuser=0)
-         - Enable the **Google sign-in** provider in the Authentication > Sign-in method tab
+         - Enable the **Google sign-in** provider in the Firebase console. Select **Authentication** > **Sign-in method**
 4. [Connect and configure Firebase to your web app](https://firebase.google.com/docs/web/setup?authuser=0#register-app)
 
 
