@@ -3,13 +3,11 @@ Firebase Realtime Database Web Quickstart
 
 Introduction
 ------------
-
 This quickstart sample application demonstrates how to use the Firebase JavaScript SDK and the Firebase Realtime Database to build and deploy a simple social blogging app for the web.
 
 Installation
 ------------
-
-### Install the Firebase CLI
+#### Install the Firebase CLI
 
 The Firebase CLI requires [Node.js](http://nodejs.org/) and [npm](https://npmjs.org/) (the Node Package Manager).
 
@@ -45,7 +43,7 @@ The displayed list should be the same as the Firebase projects listed in the Fir
 
 Setup
 -----
-### Get the sample code of the web app
+#### Get the sample code of the web app
 1. Get a local copy of the project's repository by opening terminal and running the following command:
     ```bash
     $ git clone https://github.com/chrisoung/web-database-quickstart
@@ -60,7 +58,7 @@ Setup
 
 Run the sample app
 ---------------
-To run the sample app locally, use the Firebase CLI. 
+#### To run the sample app locally, use the Firebase CLI. 
 
 1. On the command line, navigate to your project's root directory; then, run the following command to login to Firebase:
 
